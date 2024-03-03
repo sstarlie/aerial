@@ -97,7 +97,7 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('backg.png');
+    background-image: url('assets/backg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -108,9 +108,9 @@ body{
     display: block;
     position:absolute;
     width: 100%;
-    height: 40%;
-    bottom: -3%;
-    background: linear-gradient(0deg,rgba(1,1,3,1) 8%,rgba(255,255,255,0) 60%);
+    height: 30%;
+    bottom: 0%;
+    background: linear-gradient(0deg,rgba(1,1,3,1) 8%,rgba(255,255,255,0) 50%);
 }
 
 .hero .content{
@@ -173,8 +173,6 @@ body{
 
 .about.row .about-img img{
     width: 100%;
-    /* width: 675rem;
-    height: auto; */
 }
 
 .about .row .content{
@@ -452,24 +450,11 @@ tbody {
 /* Handphone */
 
 @media (max-width: 450px){
-
     html{
         font-size: 55%;
     }
 
     table{
-        width: 55%;
-        margin-left: 0;
-        justify-content: left;
-        align-items: left;
+        width: 450px;
     }
-
-
-    .about.row .about-img img{
-        width: 55%;
-        width: 675rem;
-        height: auto;
-    }
-
-    
 }
