@@ -172,9 +172,9 @@ body{
 }
 
 .about.row .about-img img{
-    /* width: 100%; */
-    width: 675rem;
-    height: auto;
+    width: 100%;
+    /* width: 675rem;
+    height: auto; */
 }
 
 .about .row .content{
